@@ -1115,3 +1115,57 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'sp
 [breadroll-mall] 2022-11-05 17:25:20.446 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
 [breadroll-mall] 2022-11-05 17:25:20.458 [main] INFO  com.qiu.BreadRollMallServer - Started BreadRollMallServer in 5.264 seconds (JVM running for 7.282)
 [breadroll-mall] 2022-11-05 17:25:20.462 [main] INFO  com.qiu.BreadRollMallServerRunner - Executing command line runner...
+[breadroll-mall] 2022-11-05 17:40:56.548 [http-nio-9999-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[breadroll-mall] 2022-11-05 17:40:56.549 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[breadroll-mall] 2022-11-05 17:40:56.590 [http-nio-9999-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 40 ms
+[breadroll-mall] 2022-11-05 17:46:02.468 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[breadroll-mall] 2022-11-05 17:46:02.595 [SpringContextShutdownHook] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[breadroll-mall] 2022-11-05 17:46:02.599 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+[breadroll-mall] 2022-11-05 17:46:07.059 [main] INFO  com.qiu.BreadRollMallServer - Starting BreadRollMallServer on DESKTOP-F5DOPR5 with PID 19412 (F:\gitee-project\steamed-bread-roll-project\breadroll-mall-server\target\classes started by Root in F:\gitee-project\steamed-bread-roll-project\breadroll-mall-server)
+[breadroll-mall] 2022-11-05 17:46:07.063 [main] INFO  com.qiu.BreadRollMallServer - The following profiles are active: redis,mail,jdbc
+[breadroll-mall] 2022-11-05 17:46:07.707 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[breadroll-mall] 2022-11-05 17:46:07.707 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[breadroll-mall] 2022-11-05 17:46:07.733 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17ms. Found 0 JPA repository interfaces.
+[breadroll-mall] 2022-11-05 17:46:07.750 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[breadroll-mall] 2022-11-05 17:46:07.751 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[breadroll-mall] 2022-11-05 17:46:07.765 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[breadroll-mall] 2022-11-05 17:46:08.030 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+[breadroll-mall] 2022-11-05 17:46:08.053 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[breadroll-mall] 2022-11-05 17:46:08.054 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.054 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.055 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.055 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.055 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.055 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application-jdbc.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.055 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application-mail.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.055 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application-redis.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.055 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[breadroll-mall] 2022-11-05 17:46:08.140 [main] INFO  c.u.j.filter.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[breadroll-mall] 2022-11-05 17:46:08.465 [main] INFO  c.u.j.resolver.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[breadroll-mall] 2022-11-05 17:46:08.469 [main] INFO  c.u.j.detector.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[breadroll-mall] 2022-11-05 17:46:09.119 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9999 (http)
+[breadroll-mall] 2022-11-05 17:46:09.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9999"]
+[breadroll-mall] 2022-11-05 17:46:09.134 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[breadroll-mall] 2022-11-05 17:46:09.135 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[breadroll-mall] 2022-11-05 17:46:09.136 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.32] using APR version [1.7.0].
+[breadroll-mall] 2022-11-05 17:46:09.136 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[breadroll-mall] 2022-11-05 17:46:09.137 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[breadroll-mall] 2022-11-05 17:46:09.140 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1n  15 Mar 2022]
+[breadroll-mall] 2022-11-05 17:46:09.267 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[breadroll-mall] 2022-11-05 17:46:09.267 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2144 ms
+[breadroll-mall] 2022-11-05 17:46:09.528 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+[breadroll-mall] 2022-11-05 17:46:09.686 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[breadroll-mall] 2022-11-05 17:46:09.728 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.25.Final
+[breadroll-mall] 2022-11-05 17:46:09.844 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[breadroll-mall] 2022-11-05 17:46:09.948 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+[breadroll-mall] 2022-11-05 17:46:10.585 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[breadroll-mall] 2022-11-05 17:46:10.594 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[breadroll-mall] 2022-11-05 17:46:11.437 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[breadroll-mall] 2022-11-05 17:46:11.585 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+[breadroll-mall] 2022-11-05 17:46:12.134 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9999"]
+[breadroll-mall] 2022-11-05 17:46:12.167 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9999 (http) with context path ''
+[breadroll-mall] 2022-11-05 17:46:12.183 [main] INFO  com.qiu.BreadRollMallServer - Started BreadRollMallServer in 5.759 seconds (JVM running for 7.009)
+[breadroll-mall] 2022-11-05 17:46:12.187 [main] INFO  com.qiu.BreadRollMallServerRunner - Executing command line runner...
+[breadroll-mall] 2022-11-05 17:46:17.130 [http-nio-9999-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[breadroll-mall] 2022-11-05 17:46:17.130 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[breadroll-mall] 2022-11-05 17:46:17.138 [http-nio-9999-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
